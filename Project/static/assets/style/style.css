@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-weight: bold !important;
+}
+
+h1 {
+    font-size: 20px !important;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 50px;
+    border-radius: 30%;
+}
+
+.main {
+    background: url('../img/thumb-1920-805233.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-box {
+    background: #fff;
+    padding: 15px;
+    margin: 200px 20px;
+    height: 150px;
+    opacity: .3;
+    border-radius: 4px;
+}
+
+.main-box img {
+    width: 100px;
+    height: 80px;
+}
+
+.main-title h2 {
+    margin-top: 30px;
+    background-color: #fff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 4px;
+    opacity: .3;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,700");
+
+.container1 {
+  background-color: #24323d;
+  max-width: 440px;
+  padding: 28px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: auto;
+}
+
+#tabs {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.tab {
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  background-color: #435259;
+  border: none;
+}
+
+.tab__active {
+    background-color: #1ab188;
+}
+
+.tabContent {
+    box-sizing: border-box;
+    width:100%;
+    display:none;
+}
+.show {
+  display:block;
+}
+
+.tabContent__header {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-family: Roboto;
+  font-weight: 300;
+  margin: 0 0 35px 0;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form__row {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form__row:first-of-type.form__row_first {
+  margin-right: 0;
+}
+
+.form__row:first-of-type {
+  margin-right: 16px;
+}
+
+.form__row_2 {
+  width: 184px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 12px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #798790;
+  margin-bottom: 29px;
+  box-sizing: border-box;
+}
+
+.form__input:focus {
+  border: 1px solid #1ab188;
+  outline: none;
+  
+}
+
+.form__placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #85939c;
+  pointer-events: none;
+  
+}
+.form__placeholder:after {
+  content: " *";
+  color: #1ab188;
+}
+
+.form__btn {
+  background-color: #1ab188;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tabs-wrap {
+    padding-top: 100px;
+}
+
+.program-btn {
+    margin-top: 300px;
+    width: 360px;
+    height: 60px;
+    background-color: #1ab188;
+    color: #000000;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.program-wrap img {
+    margin-top: 80px;
+    height: 500px;
+    width: 100%;
+}
+
+.about-wrap {
+    margin-top: 100px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    color: #000000;
+    opacity: .8;
+}
